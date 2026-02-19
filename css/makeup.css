@@ -1,17 +1,15 @@
-.navi {
+/* .navi {
     width: 100%;
     display: flex;
-    justify-content: flex-start; /* 'flex-start' is preferred */
+    justify-content: flex-start; /* 'flex-start' is preferred 
     align-items: center;
-    background-color: rgb(255, 255, 255);
-   height: 9%;
-}
+    background-color: rgb(255, 255, 255);*/
 
-header{
+/* header{
     position: sticky;
     left: 0px;
     top: 0px;
-}
+} */
 .navi #contact-link{
     color: rgb(20, 0, 241);
     text-decoration: underline;
