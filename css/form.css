@@ -1,0 +1,36 @@
+body {
+background-color: aqua;
+
+
+}
+.contact{
+background-color: white;
+width: 400px   ;
+height: 300px;
+margin: 250px 400px;
+box-shadow: 0 0 10px rgb(76, 0, 109);
+border-radius: 20px ;
+}
+#form{
+margin-left: 50px;
+margin-top: auto;
+
+}
+h3{
+    padding: 20px   ;
+    color: darkmagenta;
+
+}
+#btnSubmit{
+    margin-left: 50px;
+    background-color: darkmagenta;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+#btnSubmit:hover{
+    background-color: rgb(76, 0, 109);
+}
