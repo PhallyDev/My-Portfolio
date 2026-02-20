@@ -12,22 +12,21 @@
     z-index: index 100;;
     background-color: rgb(55, 55, 55);
 } 
-.navi #contact-link{
+
+
+.navi a{
     color: rgb(20, 0, 241);
     text-decoration: underline;
     font-size: 18px;
+    transition: 0.3s ease;
 }
-.navi #blog-link{
-    color: rgb(20, 0, 241);
-    text-decoration: underline;
-    font-size: 18px;
+.navi a:where(:hover, :focus){
+    color: rgb(241, 201, 242);
+    text-decoration: none;
+    font-size: 20px;
 }
-#blog-link:hover{
-    color: rgb(76, 0, 109);
-}
-#contact-link:hover{
-    color: rgb(76, 0, 109);
-}
+
+
 .contact{
     border: 2px solid black;
     margin-left: 400px;
