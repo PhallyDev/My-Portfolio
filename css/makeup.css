@@ -5,11 +5,13 @@
     align-items: center;
     background-color: rgb(255, 255, 255);*/
 
-/* header{
+ header{
     position: sticky;
     left: 0px;
     top: 0px;
-} */
+    z-index: index 100;;
+    background-color: rgb(55, 55, 55);
+} 
 .navi #contact-link{
     color: rgb(20, 0, 241);
     text-decoration: underline;
@@ -37,9 +39,11 @@ body{
 }
 h3{
     color: rgb(0, 166, 255);
+    font-size: large;
 }
 p,li{
     color: rgb(241, 201, 242);
+    font-size: medium;
 }
 img{
     border-radius: 50% 50%;
